@@ -1,9 +1,10 @@
-number = rand(111)
+number = rand(111) # great catch
 
 puts 'Age is ' + number.to_s
 
 if number <= 1
   range = 'baby'
+# love that you don't check the bottom bound in each of these!
 elsif number < 10
   range = 'child'
 elsif number <= 12
